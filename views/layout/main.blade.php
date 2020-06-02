@@ -129,7 +129,7 @@
         <div class="row">
             <div class="col text-center">
               <div class="left-footer footer-link"> &copy; Copyright 2020. <a href="http://www.rsiatiara.com">rsiatiara.com</a> . All rights reserved.  </div>
-              <div class="right-footer footer-link">Design by. <a href="mailto:pebri.rsiatiara.com">admin</a> 
+              <div class="right-footer footer-link">Design by. <a href="mailto:pebri@rsiatiara.com">admin</a> 
               <button class="navbar-toggler float-right border-info" onclick="topFunction()" id="myBtn" title="Go to top" type="button" data-toggle="collapse" data-target="#" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" name="tombol">
                 <i class="material-icons"><img src="img/icon/sharp_keyboard_capslock_white_24.png" alt="arrow-up">
                 </i>
