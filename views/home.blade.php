@@ -101,15 +101,15 @@
     </div>
   </section>
   {{-- paralax --}}
-<div class="jumbotron-fluid">
-  <div class="container-fluid bg-transparent text-center">
-    <div class="">
-      <img src="img/slide/tiara2.jpg" alt="tiara" class="d-block w-100">
-    </div>
+{{-- <div class="jumbotron-fluid"> --}}
+  {{-- <div class="container-fluid bg-transparent text-center"> --}}
+    {{-- <div class=""> --}}
+      {{-- <img src="img/slide/tiara2.jpg" alt="tiara" class="d-block w-100"> --}}
+    {{-- </div> --}}
 
 
-  </div>
+  {{-- </div> --}}
 
 
-</div>
+{{-- </div> --}}
   
