@@ -21,10 +21,10 @@
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+    <a class="carousel-control-prev ml-0" href="#carousel" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     </a>
-    <a class="carousel-control-next" href="#carousel" data-slide="next">
+    <a class="carousel-control-next mr-0" href="#carousel" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
     </a>
   </div>
@@ -38,26 +38,25 @@
       </p>
     </div>
   </div>
-
 </section>
 
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col text-center">
-            <h2>About</h2>
-          </div>
+<section id="about" class="about">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col text-center">
+        <h2>About</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-5 text-justify">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eius ut eaque corporis, sit repellendus ratione asperiores, aut iusto nobis voluptatem delectus dignissimos quaerat natus obcaecati laborum deleniti laboriosam officia.</p>
         </div>
-      <div class="row justify-content-center">
-          <div class="col-sm-5 text-justify">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eius ut eaque corporis, sit repellendus ratione asperiores, aut iusto nobis voluptatem delectus dignissimos quaerat natus obcaecati laborum deleniti laboriosam officia.</p>
-          </div>
-          <div class="col-sm-5 text-justify">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae fuga id saepe corporis quam dolor deserunt laudantium quia aut et ex commodi in quod, eum labore magnam. Soluta, dolorum a.</p>
-          </div>
-      </div>
-      </div>
-    </section>
+        <div class="col-sm-5 text-justify">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae fuga id saepe corporis quam dolor deserunt laudantium quia aut et ex commodi in quod, eum labore magnam. Soluta, dolorum a.</p>
+        </div>
+    </div>
+  </div>
+</section>
 
   <!-- article -->
   <section id="portfolio" class="portfolio bg-light pb-2">
@@ -67,36 +66,50 @@
             <h2>Article</h2>
           </div>
       </div>
-
-      <div class="row mb-5">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card">
+          <img src="img/kehamilan.jpg" class="card-img-top">
+          <div class="card-body text-center">
+            <h4>Kesehatan Dalam Kehamilan</h4>
+            <p class="card-text">Terlambat datang bulan merupakan hal</p>
+            <p> pertama yang menandakan kehamilan. </p>
+            <p>demikian, tanda ini bisa salah jika </p> 
+            <p> memang memiliki siklus menstruasi yang tidak </p> 
+            <p> teratur. Untuk mengecek kepastian hamil,
+            <a href="{{('/news')}}">Read More</a>.</p>
+          </div>
+        </div>
+      </div>
         <div class="col-sm">
           <div class="card">
-            <img src="img/kehamilan.jpg" class="card-img-top">
-            <div class="card-body text-center">
-              <h4>Kesehatan Dalam Kehamilan</h4>
-              <p class="card-text">Terlambat datang bulan merupakan hal pertama yang menandakan kehamilan. Meski demikian, tanda ini bisa salah jika Anda memang memiliki siklus menstruasi yang tidak teratur. Untuk mengecek kepastian hamil, gunakan testpack seminggu setelah terlambat datang bulan. Usia kehamilan sendiri dihitung sejak hari pertama haid terakhir, meskipun saat itu belum terjadi pembuahan. Setelah positif hamil, Anda disarankan untuk menjalani pemeriksaan kehamilan ke dokter kandungan. 
-              <a href="{{('/news')}}">Read More</a>.</p>
+            <img src="img/tiara.jpg" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content <a href="#">Read More</a>.</p>
             </div>
           </div>
-          </div>
-          <div class="col-sm">
-            <div class="card">
-              <img src="img/tiara.jpg" class="card-img-top">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content <a href="#">Read More</a>.</p>
-              </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <img src="img/tiara.jpg" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content <a href="#">Read More</a>.</p>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="card">
-              <img src="img/tiara.jpg" class="card-img-top">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content <a href="#">Read More</a>.</p>
-              </div>
-            </div>
-          </div>
+        </div>
       </div>
+    </div>
   </section>
-  {{-- paralax --}} 
-      
+  {{-- paralax --}}
+<div class="jumbotron-fluid">
+  <div class="container-fluid bg-transparent text-center">
+    <div class="">
+      <img src="img/slide/tiara2.jpg" alt="tiara" class="d-block w-100">
+    </div>
+
+
+  </div>
+
+
+</div>
   
