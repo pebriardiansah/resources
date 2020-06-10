@@ -14,3 +14,4 @@
     <img class="img-size" src="img/jadwal-dokter.jpg" alt="jadwal dokter">
   </div>
 </div>
+@endsection
